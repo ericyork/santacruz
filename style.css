@@ -62,31 +62,35 @@ a:active {
 }
 #resources {
   background-color: #374140;
+  color: #D8FFFB;
 }
 /*-- Footer Styles --*/
 footer {
   background-color: #1E1E20;
   color: #D8FFFB;
 }
+.site-link {
+  text-align: right;
+}
 /*-- Media Queries --*/
 @media only screen and (min-width: 580) {
    /* For phablets: */
    .col-sm-4 {width: 100%;}
-   .col-sm-3 {width: 75%;}
-   .col-sm-2 {width: 50%;}
-   .col-sm-1 {width: 25%;}
+   .col-sm-3 {width: 73%;}
+   .col-sm-2 {width: 48%;}
+   .col-sm-1 {width: 22%;}
 }
 @media only screen and (min-width: 768px) {
    /* For tablets: */
    .col-md-4 {width: 100%;}
-   .col-md-3 {width: 75%;}
-   .col-md-2 {width: 50%;}
-   .col-md-1 {width: 25%;}
+   .col-md-3 {width: 73%;}
+   .col-md-2 {width: 48%;}
+   .col-md-1 {width: 22%;}
 }
 @media only screen and (min-width: 960px) {
    /* For desktops: */
    .col-4 {width: 100%;}
-   .col-3 {width: 75%;}
-   .col-2 {width: 50%;}
-   .col-1 {width: 25%;}
+   .col-3 {width: 73%;}
+   .col-2 {width: 48%;}
+   .col-1 {width: 22%;}
 }
