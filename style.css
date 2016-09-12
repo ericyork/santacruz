@@ -2,7 +2,7 @@
 * GPL, Eric York 2016
 --*/
 /*-- Color Scheme --/
-* red: b58900
+* red: DC3522
 * tan: D9CB9E
 * gray: 374140
 * dkgray: 2A2C2B
@@ -18,18 +18,50 @@
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-weight: 300;
+  font-size: 18px;
   margin:0;
   padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Secular One', sans-serif;
+  padding-top: 16px;
 }
-.row {
+h1 {
+  font-size: 40px;
 }
-/*-- Default Columns Widths (for Phones) --*/
-[class*="col-"] {
-   width: 100%;
-   display: inline-block;
+h2 {
+  font-size: 32px;rem;
+}
+h1.site-title {
+  font-size: 52px;
+  color: #DC3522;
+}
+p:last-child {
+  padding-bottom: 12px;
+}
+header {
+  padding: 0 18%;
+  text-align: center;
+  padding-bottom: 28px
+}
+section {
+  margin: 0;
+  padding: 40px 18%;
+  text-align: center;
+}
+section p, header ul {
+  margin: 0 0;
+}
+section h1, section h2, header h1 {
+  margin: 0 0;
+}
+section ul {
+  margin: 0 0;
+}
+footer p {
+  margin: 0 0;
+  padding-top: 12px;
+  text-align: center;
 }
 /*-- Link Styles --*/
 a:link {
@@ -53,6 +85,9 @@ a:active {
   display: inline;
 }
 /*-- Section Styles --*/
+header {
+  background-color: #1E1E20;
+}
 #intro {
   background-color: #b58900;
 }
@@ -61,8 +96,15 @@ a:active {
   color: #D9CB9E;
 }
 #resources {
+  background-color: #D8FFFB;
+  color: #2A2C2B;
+}
+#resources ul {
+  list-style-type: none;
+}
+#contact {
   background-color: #374140;
-  color: #D8FFFB;
+  color: #D9CB9E;
 }
 /*-- Footer Styles --*/
 footer {
@@ -71,26 +113,4 @@ footer {
 }
 .site-link {
   text-align: right;
-}
-/*-- Media Queries --*/
-@media only screen and (min-width: 580) {
-   /* For phablets: */
-   .col-sm-4 {width: 100%;}
-   .col-sm-3 {width: 73%;}
-   .col-sm-2 {width: 48%;}
-   .col-sm-1 {width: 22%;}
-}
-@media only screen and (min-width: 768px) {
-   /* For tablets: */
-   .col-md-4 {width: 100%;}
-   .col-md-3 {width: 73%;}
-   .col-md-2 {width: 48%;}
-   .col-md-1 {width: 22%;}
-}
-@media only screen and (min-width: 960px) {
-   /* For desktops: */
-   .col-4 {width: 100%;}
-   .col-3 {width: 73%;}
-   .col-2 {width: 48%;}
-   .col-1 {width: 22%;}
 }
