@@ -18,6 +18,8 @@
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-weight: 300;
+  margin:0;
+  padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Secular One', sans-serif;
@@ -27,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-- Default Columns Widths (for Phones) --*/
 [class*="col-"] {
    width: 100%;
+   display: inline-block;
 }
 /*-- Link Styles --*/
 a:link {
@@ -82,8 +85,8 @@ footer {
 }
 @media only screen and (min-width: 960px) {
    /* For desktops: */
-   .col-1 {width: 100%;}
-   .col-2 {width: 75%;}
-   .col-3 {width: 50%;}
-   .col-4 {width: 25%;}
+   .col-4 {width: 100%;}
+   .col-3 {width: 75%;}
+   .col-2 {width: 50%;}
+   .col-1 {width: 25%;}
 }
