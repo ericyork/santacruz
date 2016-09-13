@@ -66,6 +66,7 @@ footer p {
 /*-- Link Styles --*/
 a:link {
   color:#788E8B;
+  font-weight: 400;
 }
 a:visited {
   color: #315B56;
@@ -133,7 +134,4 @@ header {
 footer {
   background-color: #1E1E20;
   color: #D8FFFB;
-}
-.site-link {
-  text-align: right;
 }
