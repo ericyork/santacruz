@@ -80,9 +80,26 @@ a:active {
 /*-- Nav Styles --*/
 .social-nav ul {
   list-style-type: none;
+  margin-left: -40px;
 }
 .social-nav ul li {
   display: inline;
+  padding-left: 20px;
+  opacity: .75;
+}
+.social-nav ul li:hover {
+  opacity: 1;
+}
+.social-nav ul li a img {
+  width: 32px;
+  height: auto;
+}
+.inline {
+  display: inline;
+}
+img.inline {
+  width: 30%;
+  height: auto;
 }
 /*-- Section Styles --*/
 header {
@@ -90,6 +107,9 @@ header {
 }
 #intro {
   background-color: #b58900;
+}
+#intro p {
+  font-size: 28px;
 }
 #gallery {
   background-color: #374140;
@@ -105,6 +125,9 @@ header {
 #contact {
   background-color: #374140;
   color: #D9CB9E;
+}
+#gallery p {
+  border-bottom: 2px solid #D9CB9E;
 }
 /*-- Footer Styles --*/
 footer {
